@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
 
-        int berkay=31;
+        int berkay=33;
         Menu menu=navigationView.getMenu();
         menu.findItem(R.id.nav_cikis).setVisible(false);
     }
