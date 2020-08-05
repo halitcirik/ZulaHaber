@@ -39,8 +39,6 @@ public class Karakterler extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_karakterler);
-int orospu;
-int orospud;
         karakterAdi=(TextView) findViewById(R.id.karakterAdi);
         karakterTur=(TextView) findViewById(R.id.karakterTur);
         recyclerView=(RecyclerView) findViewById(R.id.recy_view);
