@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.zula.zulahaber.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.zula.zulahaber.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.zula.zulahaber.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_profil"
+        android:name="com.zula.zulahaber.ui.profil.ProfilFragment"
+        android:label="@string/menu_profil"
+        tools:layout="@layout/profil_fragment" />
+
+    <fragment
+        android:id="@+id/nav_giris"
+        android:name="com.zula.zulahaber.ui.giris.GirisFragment"
+        android:label="@string/menu_giris"
+        tools:layout="@layout/giris_fragment" />
+
+    <fragment
+        android:id="@+id/nav_kayit"
+        android:name="com.zula.zulahaber.ui.kayit.KayitFragment"
+        android:label="@string/menu_kayit"
+        tools:layout="@layout/kayit_fragment" />
+
+    <activity
+        android:id="@+id/nav_karakterler"
+        android:name="com.zula.zulahaber.ui.karakterler.Karakterler"
+        android:label="Karakterler"
+        tools:layout="@layout/activity_karakterler" />
+</navigation>
