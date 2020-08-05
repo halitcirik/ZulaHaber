@@ -47,7 +47,7 @@ public class Karakterler extends AppCompatActivity {
         linearLayoutManager.scrollToPosition(0);
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setHasFixedSize(true);
-anlamiske;
+anlamiske;s
         /*
         imageView=(ImageView) findViewById(R.id.karakterResim);
         url = "https://cdn.zulaoyun.com/sitecdn/TR/Content/zulaoyun/images/characters/demir.png";
